@@ -1,0 +1,10 @@
+@import "./config/variables";
+@import "./config/mixins";
+@import "./config/globals";
+
+// components
+@import "./components/header";
+@import "./components/whatWeDo";
+@import "./components/portfolio";
+@import "./components/clients";
+@import "./components/modal";

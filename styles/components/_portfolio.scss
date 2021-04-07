@@ -1,0 +1,18 @@
+.portfolio {
+  background-color: lightgray;
+
+  figure {
+    max-height: 250px;
+    overflow: hidden;
+
+    img {
+      height: 250px;
+      width: 100%;
+      transition: all 0.7s ease;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

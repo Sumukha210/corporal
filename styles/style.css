@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #041c33 !important;
+  color: white;
+}
+
+.header .row {
+  min-height: 70vh;
+}
+
+@media (max-width: 35.99rem) {
+  .header .row {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+.header .carousel {
+  padding: 1rem 0;
+}
+
+.header .carousel__content .btn {
+  font-size: 1rem !important;
+}
+
+@media (max-width: 47.99rem) {
+  .header .carousel__content {
+    margin: 2rem 0;
+  }
+}
+
+.header .carousel__heading h5 {
+  font-size: 1.1rem !important;
+  margin-top: 1rem;
+  color: lightgray;
+}
+
+.header .carousel img {
+  height: 300px;
+  width: 100%;
+}
+
+@media (min-width: 48rem) {
+  .header .carousel img {
+    width: 500px;
+  }
+}
+
+.whatWeDo img {
+  height: 300px;
+}
+
+.whatWeDo .card {
+  margin-bottom: 2rem !important;
+}
+
+.whatWeDo .card-title {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .whatWeDo .card {
+    height: 600px !important;
+  }
+}
+
+.portfolio {
+  background-color: lightgray;
+}
+
+.portfolio figure {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.portfolio figure img {
+  height: 250px;
+  width: 100%;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.portfolio figure img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.clients img {
+  height: 100px;
+  width: 200px;
+  -webkit-filter: grayscale(100%) !important;
+          filter: grayscale(100%) !important;
+}
+
+.modal {
+  outline: none !important;
+}
+
+.modal img {
+  width: 100%;
+  height: 600px;
+}
+
+.modal .btn-danger {
+  font-size: 1.8rem;
+  padding: 0rem 0.8rem;
+  font-weight: 600;
+}
+
+.modal-body {
+  padding: 0rem !important;
+}
+
+.modal-content {
+  border: none !important;
+}
+
+.modal-header {
+  border: none !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+/*# sourceMappingURL=style.css.map */

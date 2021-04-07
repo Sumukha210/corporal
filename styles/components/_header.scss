@@ -1,0 +1,42 @@
+.header {
+  background-color: #041c33 !important;
+
+  color: white;
+
+  .row {
+    min-height: 70vh;
+    @include breakpoint-down(sm) {
+      justify-content: center !important;
+    }
+  }
+
+  .carousel {
+    padding: 1rem 0;
+
+    &__content {
+      .btn {
+        font-size: 1rem !important;
+      }
+
+      @include breakpoint-down(md) {
+        margin: 2rem 0;
+      }
+    }
+
+    &__heading {
+      h5 {
+        font-size: 1.1rem !important;
+        margin-top: 1rem;
+        color: lightgray;
+      }
+    }
+
+    img {
+      height: 300px;
+      width: 100%;
+      @include breakpoint-up(md) {
+        width: 500px;
+      }
+    }
+  }
+}
